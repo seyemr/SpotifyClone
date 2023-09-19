@@ -6,8 +6,6 @@
 <img src="/gif/gif1.gif">
 
 
-- link: http://127.0.0.1:5500/index.html
-
 ## Kullanım
 
 1. Uygulamayı başlatmak için "index.html" dosyasını bir web tarayıcısında açın.
