@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    background-color: antiquewhite;
+}
+
+nav {
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+    align-items: center;
+    height: 65px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+
+
+nav ul li {
+    /* border: 1px solid red; */
+    padding: 0 12px;
+}
+
+nav ul li:hover {
+    transform: scale(1.1);
+    transition: 1.3s;
+}
+
+.logo img {
+    width: 44px;
+    padding: 0 8px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+
+.container {
+    border: 4px solid rgb(255, 255, 255);
+    min-height: 72vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    margin: 23px auto;
+    width: 77%;
+    border-radius: 12px;
+    padding: 32px;
+    background-image: url("/bg.jpg");
+}
+
+.bottom {
+    /* border: 4px solid red; */
+    position: sticky;
+    bottom: 0;
+    background-color: rgb(0, 0, 0);
+    color: rgb(236, 236, 236);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.icons {
+    margin-top: 14px;
+    /* border: 3px solid red; */
+    padding: 10px;
+}
+
+.icons i {
+    cursor: pointer;
+    /* color: rgb(255, 0, 0); */
+    gap: 30px;
+    /* border: 3px solid red; */
+    padding: 8px;
+
+}
+
+.icons i:hover {
+
+    color: rgb(3, 175, 187);
+}
+
+#myProgressBar {
+    width: 80vw;
+    cursor: pointer;
+}
+
+.musicItemContainer {
+    /* border: 4px solid red; */
+    margin-top: 74px;
+}
+
+.musicItem {
+    height: 50px;
+    display: flex;
+    background-color: white;
+    color: black;
+    margin: 12px 0;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 34px;
+}
+
+.musicItem img {
+    /* border: 4px solid red; */
+    width: 43px;
+    border-radius: 34px;
+    margin: 0 23px;
+}
+
+.musicTime {
+    margin: 0 23px;
+}
+
+.musicTime i {
+    /* border:  4px solid red; */
+    cursor: pointer;
+}
+
+.musicInfo {
+    position: absolute;
+    /* border:  4px solid red; */
+    left: 10vw;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.musicInfo img {
+    /* border:  4px solid red; */
+    opacity: 0;
+    transition: opacity 0.4s ease-in;
+}
+
+@media only screen and (max-width:1100px) {
+    body {
+        background-color: red;
+    }
+}
